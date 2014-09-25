@@ -1,0 +1,17 @@
+{
+  "id": "myaddon",
+  "api": {
+    "config_vars": [ "MYADDON_API_KEY", "MYADDON_URL"],
+    "regions": [ "us" ],
+    "password": "60680a0045f5288bb3e82b8294cd1c36",
+    "sso_salt": "a4f8eb78386d2bde31ffc1d0c420ebd8",
+    "production": {
+      "base_url": "https://myapp.com/modulus/resources",
+      "sso_url": "https://myapp.com/sso/login"
+    },
+    "test": {
+      "base_url": "http://localhost:3000/modulus/resources",
+      "sso_url": "http://localhost:3000/sso/login"
+    }
+  }
+}
